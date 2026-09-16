@@ -26,6 +26,7 @@ filters:
 - Add a code chunk option, `#| standalone: true`.
 - You can control the height of the panel by setting `viewerHeight`.
 
+````
 ```{shinylive-r}
 #| standalone: true
 
@@ -77,5 +78,6 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 ```
+````
 
 6. Render your document.
